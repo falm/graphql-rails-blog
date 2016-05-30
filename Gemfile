@@ -40,6 +40,7 @@ gem 'faker'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'awesome_print'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -54,3 +55,8 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+  gem 'mocha', require: false
+  gem 'factory_girl_rails', '~> 4.1.0'
+  gem 'rspec-rails'
+end
