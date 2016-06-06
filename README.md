@@ -14,4 +14,4 @@ gem 'graphql-libgraphqlparser', '~> 0.2'
 - 查询: **/queries/create**
 - schema定义 **app/graph/schemas/***
 - type **app/graph/types/***
- 
+- mutation **app/graph/mutatinos/***
