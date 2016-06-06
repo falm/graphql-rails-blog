@@ -10,3 +10,8 @@ gem 'graphql-libgraphqlparser', '~> 0.2'
 ```
 ### 模型
 ![ER图](http://upload-images.jianshu.io/upload_images/1767848-b7e262cc67dde74c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+
+- 查询: **/queries/create**
+- schema定义 **app/graph/schemas/***
+- type **app/graph/types/***
+ 
