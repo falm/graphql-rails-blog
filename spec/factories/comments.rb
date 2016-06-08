@@ -15,7 +15,7 @@
 FactoryGirl.define do
   factory :comment do
     content "MyString"
-    article nil
+    article
     user nil
   end
 end
